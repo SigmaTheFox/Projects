@@ -6,7 +6,7 @@ const rl = readline.createInterface({
 })
 
 const question = () => {
-    rl.question("Enter the amount of decimals to generate for PI: ", answer => {
+    rl.question("Enter the amount of decimals to generate for E: ", answer => {
         if(/\d+/g.test(answer) === false) {
             console.log("You have to enter a number.");
             return question();
@@ -16,7 +16,7 @@ const question = () => {
             console.log("The number is too high, the limit is 30.");
             return question();
         }
-        console.log(Math.PI.toFixed(num));
+        console.log(Math.E.toFixed(num));
         return question();
     })
 }
