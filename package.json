@@ -1,0 +1,25 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "Mega Project List\r ========",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SigmaTheFox/Projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SigmaTheFox/Projects/issues"
+  },
+  "homepage": "https://github.com/SigmaTheFox/Projects#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.28"
+  }
+}
